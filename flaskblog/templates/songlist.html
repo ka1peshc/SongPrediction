@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+{% block content %}
+
+	{% for i in range(0,10) %}
+		<p>{{ recommend_songs[i] }}</p>
+		
+	{% endfor %}
+
+{% endblock content %}
